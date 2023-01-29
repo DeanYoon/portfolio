@@ -66,7 +66,7 @@ export const SkillsBoxTitle = styled.div`
 
 function App() {
   return (
-    <div id="root">
+    <div>
       <HeaderTab>
         <HeaderMenu>Dean's Portfolio</HeaderMenu>
         <HeaderBox>
@@ -129,7 +129,7 @@ function App() {
             <AboutmeInfoWrapper>
               <AboutmeInfoTitle>이메일</AboutmeInfoTitle>
               <AboutmeInfoDescription>
-                yjs6300.hanyang.ac.kr
+                deantube8078@gmail.com{" "}
               </AboutmeInfoDescription>
             </AboutmeInfoWrapper>
           </AboutmeWrapper>
@@ -139,7 +139,7 @@ function App() {
             <AboutmeInfoWrapper>
               <AboutmeInfoTitle>학력</AboutmeInfoTitle>
               <AboutmeInfoDescription>
-                한양대학교(ERICA)
+                {/* 한양대학교(ERICA) */}
                 <br /> 산업경영공학과
               </AboutmeInfoDescription>
             </AboutmeInfoWrapper>
