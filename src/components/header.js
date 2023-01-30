@@ -1,17 +1,18 @@
 import styled from "styled-components";
 export const HeadBox = styled.div`
   height: 400px;
-  background-color: black;
 `;
 export const HeaderTab = styled.div`
   width: 100vw;
   height: 80px;
-  background-color: tomato;
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: space-between;
   padding: 10px 60px;
   box-sizing: border-box;
   position: fixed;
+  z-index: 1;
 `;
 
 export const HeaderBox = styled.div`

@@ -1,12 +1,17 @@
 import styled from "styled-components";
+
 export const Masterhead = styled.div`
-  color: white;
+  color: white !important;
   padding: 80px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  opacity: 1;
+  background-image: url(${(props) => props.backgroundImage});
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #000, -1px -1px 0px #fff;
 `;
 export const MasterheadTitle = styled.div`
   font-size: 50px;
