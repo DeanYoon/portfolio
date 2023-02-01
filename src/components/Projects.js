@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Skills, SkillsTitle } from "./Skills";
 export const Projects = styled(Skills)`
-  background-color: greenyellow;
+  background-color: #f1592a;
 `;
 export const ProjectsTitle = styled(SkillsTitle)`
   text-align: center;

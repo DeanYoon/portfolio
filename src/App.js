@@ -262,8 +262,8 @@ function App() {
                 <li>
                   <div className="Project__detail__title">주요기능</div>
                   <div className="Project__detail__content">
-                    사용자 인증, 게시글 작성, 댓글 작성, 동영상 재생, 동영상 및
-                    사용자 프로필 수정
+                    위치,날씨 API , 자연스러운 움직임 구현, 시계, localStorage
+                    저장, 비동기처리
                   </div>
                 </li>
                 <li>
@@ -333,8 +333,7 @@ function App() {
                 <li>
                   <div className="Project__detail__title">주요기능</div>
                   <div className="Project__detail__content">
-                    사용자 인증, 게시글 작성, 댓글 작성, 동영상 재생, 동영상 및
-                    사용자 프로필 수정
+                    캔버스, 업로드 & 다운로드 , 버튼움직임 구현
                   </div>
                 </li>
                 <li>

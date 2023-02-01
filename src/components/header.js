@@ -5,7 +5,7 @@ export const HeadBox = styled.div`
 export const HeaderTab = styled.div`
   width: 100vw;
   height: 80px;
-  background-color: black;
+  background-color: #ffb900;
   color: white;
   display: flex;
   justify-content: space-between;
