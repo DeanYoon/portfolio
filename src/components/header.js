@@ -1,8 +1,6 @@
 import styled from "styled-components";
-export const HeadBox = styled.div`
-  height: 400px;
-`;
-export const HeaderTab = styled.div`
+
+const HeaderTab = styled.div`
   width: 100vw;
   height: 80px;
   background-color: #ffb900;
@@ -15,14 +13,30 @@ export const HeaderTab = styled.div`
   z-index: 1;
 `;
 
-export const HeaderBox = styled.div`
+const HeaderBox = styled.div`
   display: flex;
 `;
 
-export const HeaderMenu = styled.div`
+const HeaderMenu = styled.div`
   font-weight: 1000;
   margin: 0 15px;
   font-size: 20px;
   display: flex;
   align-items: center;
 `;
+
+function Header() {
+  return (
+    <HeaderTab>
+      <HeaderMenu>Dean's Portfolio</HeaderMenu>
+      <HeaderBox>
+        <HeaderMenu>About me</HeaderMenu>
+        <HeaderMenu>Skills</HeaderMenu>
+        <HeaderMenu>Projects</HeaderMenu>
+        <HeaderMenu>Career</HeaderMenu>
+      </HeaderBox>
+    </HeaderTab>
+  );
+}
+
+export default Header;
